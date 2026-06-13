@@ -5,6 +5,26 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: 'D-Daily Ltd – Home & Pest Protection E-commerce',
+      description: 'Full-stack e-commerce platform for trusted home, farm, and pest protection products in Kenya. Features product catalog, shopping cart, inventory management, secure online payments, and reseller program with nationwide delivery.',
+      image: 'https://images.unsplash.com/photo-1460925895917-adf4e0e473a0?auto=format&fit=crop&w=1200&q=80',
+      technologies: ['React', 'Node.js', 'E-commerce', 'Payment Integration', 'Cloudinary', 'AWS S3', 'CloudFront'],
+      liveUrl: 'https://www.ddaily.co.ke',
+      githubUrl: '#',
+      featured: true
+    },
+    {
+      id: 2,
+      title: 'CareerStart – Internship Placement Platform',
+      description: 'Student internship and industrial attachment marketplace connecting 18,000+ students with 250+ partner companies across Kenya. Features smart matching algorithm, one-click applications, deadline reminders, direct messaging, and real-time application tracking.',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80',
+      technologies: ['React', 'Node.js', 'Algorithm', 'Real-time Notifications', 'AWS Elastic Beanstalk', 'Route 53'],
+      liveUrl: 'https://www.careerstart.co.ke',
+      githubUrl: '#',
+      featured: true
+    },
+    {
+      id: 3,
       title: 'Dockerized Web Application',
       description: 'Multi-container application architecture featuring React frontend, Node.js backend, and MongoDB database. Implemented using Docker Compose for local development and seamless environment parity.',
       image: 'https://images.unsplash.com/photo-1605745341112-85968b19335b?auto=format&fit=crop&w=1200&q=80',
@@ -14,7 +34,7 @@ const Projects = () => {
       featured: true
     },
     {
-      id: 2,
+      id: 4,
       title: 'Linux Setup Automation Script',
       description: 'Comprehensive Bash automation script for DevOps workstation provisioning. Configures development environment, installs essential tools, and applies security hardening for consistent setup across team members.',
       image: 'https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=1200&q=80',
@@ -24,7 +44,7 @@ const Projects = () => {
       featured: true
     },
     {
-      id: 3,
+      id: 5,
       title: 'AWS Infrastructure as Code Deployment',
       description: 'High-availability AWS environment provisioned entirely through CloudFormation templates. Includes VPC design, auto-scaling groups, load balancers, and RDS with multi-AZ configuration.',
       image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80',
@@ -34,7 +54,7 @@ const Projects = () => {
       featured: false
     },
     {
-      id: 4,
+      id: 6,
       title: 'CI/CD Pipeline Demo',
       description: 'Production-ready GitHub Actions pipeline automating build, test, and deployment workflows. Implements blue-green deployment strategy with automated rollback capabilities to AWS infrastructure.',
       image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80',
@@ -44,7 +64,7 @@ const Projects = () => {
       featured: false
     },
     {
-      id: 5,
+      id: 7,
       title: 'Kubernetes Learning Lab',
       description: 'Hands-on Kubernetes practice environment with comprehensive YAML configurations for deployments, services, pods, config maps, and secrets. Demonstrates container orchestration best practices and scaling strategies.',
       image: 'https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&w=1200&q=80',
@@ -54,7 +74,7 @@ const Projects = () => {
       featured: false
     },
     {
-      id: 6,
+      id: 8,
       title: 'DevOps Learning Tracker',
       description: 'Structured knowledge management system built in Notion for tracking DevOps learning paths, technical documentation, and hands-on lab exercises. Organized by technology domains and skill progression.',
       image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80',
@@ -75,10 +95,10 @@ const Projects = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">DevOps Projects – AWS, Docker, Kubernetes</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Full-Stack Projects & DevOps Solutions</h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
-            Here are some of the DevOps projects I've worked on, showcasing my expertise in cloud infrastructure, containerization, automation, and CI/CD pipelines.
+            A showcase of full-stack applications, e-commerce platforms, and DevOps solutions. Demonstrates expertise in cloud infrastructure, containerization, automation, CI/CD pipelines, and scalable web applications.
           </p>
         </motion.div>
 
