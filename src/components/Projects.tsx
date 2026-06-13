@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: 'D-Daily Ltd – Home & Pest Protection E-commerce',
       description: 'Full-stack e-commerce platform for trusted home, farm, and pest protection products in Kenya. Features product catalog, shopping cart, inventory management, secure online payments, and reseller program with nationwide delivery.',
-      image: 'https://images.unsplash.com/photo-1460925895917-adf4e0e473a0?auto=format&fit=crop&w=1200&q=80',
+      image: 'https://res.cloudinary.com/daytxhhu5/image/upload/f_auto,q_auto/v1/d-daily/hero-banner',
       technologies: ['React', 'Node.js', 'E-commerce', 'Payment Integration', 'Cloudinary', 'AWS S3', 'CloudFront'],
       liveUrl: 'https://www.ddaily.co.ke',
       githubUrl: '#',
